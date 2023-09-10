@@ -1,59 +1,7 @@
 div {
-    background-color: red;
-    color: white;
-    font-size: 32px;
+    background-color: black;
+    color: grey;
+    font-size: 48px;
     text-align: center;
     font-weight: bold;
 }
-
-.odd {
-    background-color: rgb(225, 167, 167);
-    font-family: Verdana, "DejaVu Sans", sans-serif;
-}
-
-.adjust-font-size {
-    font-size: : 24px;
-}
-
-#two {
-    color: #0000ff;
-    font-size: 36px;
-}
-
-/*
-    In the id selector 'four' below, we could have also added a rule to set the font size to 24px.
-
-    However, since the elements 'Number 3' and 'Number 4' in the HTML file share the same font size, we refused the 'adjust-font-size' class above to help reduce duplicate code.
-    */
-
-    #four {
-        background-color: hsl(120, 100%, 75%);
-        font-weight: bold;
-    }
-
-
-    .inverted,
-    .fancy {
-        font-family: Helvetica, "Times New Roman", sans-serif;
-        font-size: 28px;
-    }
-
-    .inverted {
-        background-color: black;
-        color: white;
-    }
-
-    .fancy {
-        background-color: yellow;
-    }
-
-
-    .avatar.proportioned {
-        height: auto;
-        width: 300px;
-    }
-
-    .avatar.distorted {
-        height: 400px;
-        width: 200px;
-    }
